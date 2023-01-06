@@ -42,8 +42,8 @@ except:
 with open('Config.json') as f:
     config = json.load(f)
 
-Token = config.get('Token')
-Bot = config.get('Bot')
+Token = config.get('MTAxMjg4OTc5NjgxMDY1Nzc5Mw.GIxwvP.Z8DapQURMmH2X0dJPUWMDdGUWjw-wlgEKiqUJo')
+Bot = config.get('Fame bot')
 if Bot == True:
     headers = {"Authorization": f"Bot {Token}"}
 else:
